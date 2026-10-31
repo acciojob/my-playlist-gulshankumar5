@@ -1,9 +1,17 @@
+
 body {
     background-color: rgb(204, 204, 204);
 }
 
-h1, h2, h3 {
+h1, h2 {
     text-align: center;
+}
+
+ul {
+    background-color: white;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 li {
@@ -16,8 +24,14 @@ a {
 }
 
 .player_one, .player_two {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+video, audio {
+    width: 100%;
 }
